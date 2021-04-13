@@ -1,0 +1,7 @@
+ul {
+    background: #FFE6C2;
+    border: 3px solid #F18F01;
+    width: 70px;
+    margin: 20px;    /*all four sides*/
+    padding: 15px;   /*all four sides*/
+  }
