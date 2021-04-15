@@ -1,8 +1,9 @@
 *{
-  margin:10px;
+  margin: 0;
   padding: 0;
+  margin-left: 1%;
   }
-  
+
   ul{
   list-style: none;
   line-height: 50px;
@@ -15,24 +16,24 @@
   top:0;
   left:100%;
   display: none;
-  
   }
+
   nav>ul li{
       width:140px;
+      margin: 0;
       position: relative;
       background-color: #FFE6C2;
       text-align: center;
       font-weight: bold;
   }
   
-  
   nav>ul>li:hover>ul {
       display:block;
   }
+
   nav ul li a{
   text-decoration: none;
   color: #2E4069;
-  
   }
   
   nav ul li a:hover{
@@ -46,8 +47,5 @@
   
   ul{
   list-style-type: none;
-  
-  
   }
          
- 
