@@ -1,0 +1,59 @@
+.active a:link {
+    background-color: #FFE6C2;
+}
+
+nav {
+    top: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+nav>ul li {
+    width: 150px; 
+    position: relative; 
+    text-align: center;
+    font-weight: bold;
+    color: #F18F01;
+}
+
+nav ul li {
+    margin-bottom: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    border: 3px solid #F18F01;
+    padding: 15px 15px 15px 15px;
+}
+
+nav a:link{
+    background-color: #FFE6C2;
+}
+nav a:hover, nav a:focus {
+    background-color: #C3F3FD;
+}
+nav a:active{
+    background-color: #C3F3FD;
+}
+
+nav ul>li ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+nav>ul>li:hover>ul{
+    display: block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #2E4069;
+    }
+  
