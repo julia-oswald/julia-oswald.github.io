@@ -1,15 +1,15 @@
 .active a:link {
-    background-color: #FFE6C2;
+    background-color: #FFE6C2;  
 }
 
 nav {
-    top: 80px;
+    top: 80px;   
 }
 
 nav ul {
     list-style-type: none;
     margin: 5px;
-    padding: 0;
+    padding: 0;      
 }
 
 nav>ul li {
@@ -17,7 +17,7 @@ nav>ul li {
     position: relative; 
     text-align: center;
     font-weight: bold;
-    color: #F18F01;
+    color: #F18F01;  
 }
 
 nav ul li {
