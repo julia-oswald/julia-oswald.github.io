@@ -1,36 +1,37 @@
 .active a:link {
     background-color: #FFE6C2;  
 }
+#hamburger {
+    display: none;
+}
 
 nav {
-    top: 80px;   
+    top: 0px;  
 }
 
 nav ul {
     list-style-type: none;
-    margin: 5px;
+    margin: 0;
     padding: 0;      
 }
 
 nav>ul li {
-    width: 150px; 
-    position: relative; 
+    position: relative;
     text-align: center;
     font-weight: bold;
     color: #F18F01;  
+    float: left;
 }
-
-nav ul li {
-    margin-bottom: 4px;
-}
-
 nav a {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     border: 3px solid #F18F01;
     padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 5px;
+    color: #048BA8
 }
-
+/*format all navigation <a> elements*/
 nav a:link{
     background-color: #FFE6C2;
 }
@@ -40,20 +41,73 @@ nav a:hover, nav a:focus {
 nav a:active{
     background-color: #C3F3FD;
 }
-
+/*position sub-menu or drop-down*/
 nav ul>li ul {
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 100%;
+    left: auto;
     display: none;
 }
+nav ul ul li {
+    float: none;
+}
 
+/*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
 }
 
-nav ul li a{
-    text-decoration: none;
+
+@media only screen and (max-width: 640px) {
+	header {
+		position: relative;
+        height: 40px;
+        display: block;
+        background-color: #C3F3FD;
+        width: 100%
+
+	}
+	#hamburger {
+		display: inline-block;
+        padding-left: 20px;
+        width: 26px;
+        float: left;
+        font-size: 2em;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px 20px 20px 0px;
+		top: 20px;
+			}
+	nav:hover ul {
+		display: block;
+	}
+    	nav:hover #mobileHide {
+		display: none;
+	}
+	nav li {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+    nav>ul li {
+    text-align: left;
+    font-weight: bold;
     color: #2E4069;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    padding: 15px 0px 15px 35px;
+    width: 240px;
+    margin-bottom: 2px;
+}
+nav .lastMobile {border-bottom: 3px solid #F18F01;}
+    nav ul li ul {
+        display:none;
     }
-  
+}
