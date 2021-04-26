@@ -1,3 +1,10 @@
+@font-face { 
+  font-family: Lobster-Regular; 
+  src: url("Lobster-Regular.ttf"); 
+  }
+  blockquote {font-family: Lobster-Regular, serif; 
+  }
+
 h1{
   color: #048BA8;
   text-align: center;
@@ -108,3 +115,36 @@ body,
   height: auto;
   }
 
+@media print {
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+}
+h1, h2 {
+  font-family: Times, Times,serif;
+}
+#nav_menu {
+  display: none;
+}  
+aside {
+  display: none;
+}
+article {
+  width: auto;
+}
+header {
+  border-bottom: 2px solid black;
+}
+header h2 {
+  color: black;
+  font-size: 180%;
+}
+header 3 {
+  color: black;
+  font-size: 120%;
+}
+footer {
+  border-top: 2px solid black;
+}
+
+}
