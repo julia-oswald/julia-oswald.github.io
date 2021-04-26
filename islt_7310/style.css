@@ -116,6 +116,10 @@ body,
   }
 
 @media print {
+
+@page {
+  margin: 25mm 25mm 25mm 25mm;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: white;
@@ -132,19 +136,23 @@ aside {
 article {
   width: auto;
 }
+img {
+  display: none;
+}
 header {
   border-bottom: 2px solid black;
 }
 header h2 {
   color: black;
-  font-size: 180%;
+  font-size: 150%;
 }
 header 3 {
   color: black;
-  font-size: 120%;
+  font-size: 110%;
 }
 footer {
   border-top: 2px solid black;
 }
 
+}
 }
