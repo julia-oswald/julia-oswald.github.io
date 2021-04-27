@@ -25,7 +25,8 @@ footer {
   position:relative; 
   bottom:0;
   text-align: center;
-  background-image: url(background.jpg);
+  width: 100%;
+  background-image: url('Images/background.jpg');
 }
 
 p{
@@ -72,13 +73,10 @@ body {
 }
 
 
-.header {
+.header, .footer {
   background: #FFE6C2;
 }
-.footer {
-  background-image: url(background.jpg);
-  background-size: cover;
-}
+ 
 .sidebar {
   background: white;
   z-index: 100;
