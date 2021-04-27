@@ -73,9 +73,12 @@ body {
 }
 
 
-.header,
-.footer {
+.header {
   background: #FFE6C2;
+}
+.footer {
+  background-image: url(background.jpg);
+  background-size: cover;
 }
 .sidebar {
   background: white;
