@@ -79,6 +79,7 @@ body {
 
 .footer {
   background-image: url("background.jpg");
+  width:auto;
 }
  
 .sidebar {
