@@ -25,7 +25,8 @@ footer {
   position:relative; 
   bottom:0;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(background.jpg);
+  background-size: cover;
 }
 
 p{
@@ -74,7 +75,7 @@ body {
 
 .header,
 .footer {
-  background-image: url("background.jpg");
+  background: #FFE6C2;
 }
 .sidebar {
   background: white;
@@ -147,7 +148,7 @@ header h2 {
   color: black;
   font-size: 150%;
 }
-header 3 {
+header h3 {
   color: black;
   font-size: 110%;
 }
@@ -155,5 +156,4 @@ footer {
   border-top: 2px solid black;
 }
 
-}
 }
