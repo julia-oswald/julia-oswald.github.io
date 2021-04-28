@@ -45,9 +45,6 @@ main p {
   position: relative
 }
 
-body p{
-  text-indent: 2em;
-}
 
 body {
   margin: 40px;
@@ -121,8 +118,9 @@ body,
 }
 
 .image {
-  width: 50%;
+  width: 20%;
   height: auto;
+  float:right;
   }
 
 .icon { 
