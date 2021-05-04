@@ -169,5 +169,8 @@ header h3 {
 footer {
   border-top: 2px solid black;
 }
+iframe{
+  display: none;
+}
 
 }
