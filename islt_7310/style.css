@@ -50,6 +50,33 @@ body {
   margin: 40px;
 }
 
+table{
+  border: 1px solid #2E4069;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid #2E4069;
+  padding: .3em .7em;
+  text-align: center;
+  color: #048BA8;
+  background-color: #FFE6C2;
+}
+td {
+  border: 1px solid #2E4069;
+  padding: .3em .7em;
+  text-align: center;
+  color: #048BA8;
+}
+tr:nth-child(odd) {
+  background-color: #C3F3FD;
+}
+tr:nth-child(even) {
+  background-color: #FFE6C2;
+}
+main {
+  overflow: scroll;
+}
+
 
 /*Box layout*/
 
@@ -102,8 +129,6 @@ body,
   flex: 1 1 auto;
 }
 
-
-
 @media (min-width: 768px) {
   .left-sidebar {
     order: -1;
@@ -129,6 +154,15 @@ body,
      
 .icon:hover { 
   transform: scale(1.8); 
+}
+@media (max-width: 900px) {
+  th, td {
+    display: block;
+  }
+ thead {
+   display: none;
+ } 
+
 }
 
 @media print {
