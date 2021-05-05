@@ -77,6 +77,27 @@ main {
   overflow: scroll;
 }
 
+/*Form layout*/
+
+label {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+input {
+  margin-left: 1em;
+  margin-bottom: .5em;
+  width: 250px;
+}
+textarea {
+  margin-left: 1em;
+  margin-bottom: .5em;
+  width: 250px;
+  height: 200px;
+}
+#button {
+  margin-left: 10em;
+}
 
 /*Box layout*/
 
